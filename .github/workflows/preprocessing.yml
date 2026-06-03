@@ -51,7 +51,7 @@ jobs:
           name: dataset_preprocessing
           path: preprocessing/dataset_preprocessing/
 
-      - name: Commit Latest Dataset
+      - name: Commit Latest Dataset to Repository
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash -l {0}
